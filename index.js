@@ -16,14 +16,14 @@ if (require.main === module) {
         fetch(link.href)
           .then(res => {
             result = 
-            `line:${link.line} - ${colors.green(link.href)} - ${link.text} - ${colors.bgBlue(res.status)}${colors.bgBlue(res.statusText)} - ${link.file}`;
+            `line:${link.line} - ${colors.blue(link.href)} - ${link.text} - ${colors.green(res.status)} ${colors.green(res.statusText)} - ${link.file}`;
             console.log(result);
           }).catch((err) => {
-            console.error(`Link no existe ${err}`);
+            console.error(`${colors.red('Link no existe')} ${err}`);
           }) ;
       } else 
         result = 
-        `line:${link.line} - ${colors.green(link.href)} - ${link.text} - ${link.file}`;
+        `line:${link.line} - ${colors.blue(link.href)} - ${link.text} - ${link.file}`;
       console.log(result);
     });
   }).catch((error) => {
