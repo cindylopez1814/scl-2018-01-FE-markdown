@@ -19,15 +19,21 @@ Para comenzar debes tener instalado [Node.js](https://nodejs.org/en/) en tu comp
 ### Instalación :wrench:
 
 Para instalación global en la consola de tu proyecto debes instalar 
-`npm install -g md-links-cl`
+```
+npm install -g md-links-cl
+```
 
 Para instalar dependencia
-`npm i md-links-cl --save`
+```
+npm i md-links-cl --save
+```
 
 ### CLI
 
 Comando de ejecución del modulo
-`$ md-links-cl <path-file>`
+```
+$ md-links-cl <path-file>
+```
 
 Reemplaza `<path-file>` por la ruta del archivo que deseas extraer links.
 
@@ -39,7 +45,9 @@ Retorna
   file: Ruta del archivo donde se encontró el link.
 ```
 Ejecución de opcion --validate
-`$ md-links-cl <path-file> [options]`
+```
+$ md-links-cl <path-file> [options]
+```
 
 Retorna el estatus a la petición HTTP de la url extraída
 ```return
@@ -64,22 +72,26 @@ Retorna el estatus a la petición HTTP de la url extraída
 ```
 
 Para poder extraer archivos desde _some.md_ ejecutamos
-`$ md-links-cl text/some.md`
+```
+$ md-links-cl text/some.md
+```
 
 Retorna
  
 ```sni
-  line:1 - http://www.google.cl - www.google.cl - C:\Users\proyecto\text\some.md
-  line:12 - http://www.somes.com - alguna pagina - C:\Users\proyecto\text\some.md
+line:1 - http://www.google.cl - www.google.cl - C:\Users\proyecto\text\some.md
+line:12 - http://www.somes.com - alguna pagina - C:\Users\proyecto\text\some.md
 ```
 
 Ejecutar con options _--validate_
-`$ md-links-cl text/some.md --validate`
+```
+$ md-links-cl text/some.md --validate
+```
 
 Retorna
 ```sni
-  line:1 - http://www.google.cl - www.google.cl - 200 ok C:\Users\proyecto\text\some.md 
-  line:12 - http://www.somes.com - alguna pagina - 404 not found C:\Users\proyecto\text\some.md
+line:1 - http://www.google.cl - www.google.cl - 200 ok C:\Users\proyecto\text\some.md 
+line:12 - http://www.somes.com - alguna pagina - 404 not found C:\Users\proyecto\text\some.md
 ```
 
 ##Versiones :computer:
