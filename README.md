@@ -4,8 +4,10 @@
 # MARKDOWN
 `v1.0.0`
 ![screenshot_1](https://user-images.githubusercontent.com/39093869/47227775-02312680-d39a-11e8-864c-4678f914cb9c.png)
-[laboratoria] (www.laboratoria.la)
-:v: Biblioteca para extraer links de archivos [Markdown](https://markdown.es/) _md_
+[Laboratoria] (www.laboratoria.la)
+
+
+:v: Biblioteca para extraer links de archivos .md
 
 ## Características :clipboard:
 
