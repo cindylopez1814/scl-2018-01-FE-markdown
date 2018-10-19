@@ -4,7 +4,7 @@
 # MARKDOWN
 `v1.0.0`
 ![screenshot_1](https://user-images.githubusercontent.com/39093869/47227775-02312680-d39a-11e8-864c-4678f914cb9c.png)
-[Laboratoria] (www.laboratoria.la)
+[Laboratoria] (https://www.laboratoria.la/)
 
 
 :v: Biblioteca para extraer links de archivos .md
